@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thuvien>
+    <sach>
+        <title>Đắc Nhân Tâm</title>
+        <author>Dale Carnegie</author>
+        <year>1936</year>
+        <genre>Kỹ năng sống</genre>
+    </sach>
+
+    <sach>
+        <title>Nhà giả Kim</title>
+        <author>Paulo Coelho</author>
+        <year>1988</year>
+        <genre>Kinh tế</genre>
+    </sach>
+
+    <sach>
+        <title>Người giàu có nhất thành Babilon</title>
+        <author>George Samuel Clason</author>
+        <year>1926</year>
+        <genre>Kinh tế</genre>
+    </sach>
+     <sach>
+        <title>Cuốn Theo Chiều Gió</title>
+        <author>Margaret Mitchell</author>
+        <year>1936</year>
+        <genre>Tiểu thuyết</genre>
+    </sach>
+
+    <sach>
+        <title>Hoàng Tử Bé</title>
+        <author>Antoine de Saint-Exupéry</author>
+        <year>1943</year>
+        <genre>Tiểu thuyết</genre>
+    </sach>
+
+    <sach>
+        <title>Đi Tìm Lẽ Sống</title>
+        <author>Viktor Frankl</author>
+        <year>1946</year>
+        <genre>Kỹ năng sống</genre>
+    </sach>
+</thuvien>
