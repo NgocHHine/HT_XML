@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<company xmlns:hr="http://company.com/hr" xmlns:dep="http://company.com/department" xmlns:xin="http://company.com/xintream">
+<!DOCTYPE company SYSTEM "company.dtd">
+<company xmlns:hr="http://company.com/hr"
+         xmlns:dep="http://company.com/department"
+         xmlns:xin="http://company.com/xintream">
 
     <dep:department name="Kế toán">
         <hr:employee id="KT1">
@@ -10,43 +13,12 @@
             <hr:name>Trần Thị Nam Em</hr:name>
             <hr:position>Kế toán viên</hr:position>
         </hr:employee>
-        <hr:employee id="KT3">
-            <hr:name>Dương Anh Thư</hr:name>
-            <hr:position>Kế toán viên</hr:position>
-        </hr:employee>
-        <hr:employee id="KT12">
-            <hr:name>Dương Hoa Anh Đào</hr:name>
-            <hr:position>Kế toán viên</hr:position>
-        </hr:employee>
     </dep:department>
 
-    <dep:department name="Công nghệ thông tin">
-        <hr:employee id="CNTT2">
-            <hr:name>Lê Văn Minh</hr:name>
-            <hr:position>Lập trình viên</hr:position>
-        </hr:employee>
-        <hr:employee id="CNTT5">
-            <hr:name>Phạm Thị Lệ Quyên</hr:name>
-            <hr:position>Quản trị hệ thống</hr:position>
-        </hr:employee>
-        <hr:employee id="CNTT8">
-            <hr:name>Phạm Văn Minh</hr:name>
-            <hr:position>Quản trị hệ thống</hr:position>
-        </hr:employee>
-    </dep:department>
-
-     <xin:xintream name="Maketing">
+    <xin:xintream name="Maketing">
         <hr:employee id="MK1">
             <hr:name>Dương Anh Chí</hr:name>
             <hr:position>Nhân viên Maketing</hr:position>
-        </hr:employee>
-        <hr:employee id="MK2">
-            <hr:name>Lưu Kiều My</hr:name>
-            <hr:position>Trưởng Phòng Maketing</hr:position>
-        </hr:employee>
-        <hr:employee id="MK56">
-            <hr:name>Ông Thị Mỹ Hằng</hr:name>
-            <hr:position>Nhân Viên Maketing</hr:position>
         </hr:employee>
     </xin:xintream>
 </company>

@@ -1,0 +1,19 @@
+<!ELEMENT company (dep:department+, xin:xintream+)>
+
+<!ELEMENT dep:department (hr:employee+)>
+<!ATTLIST dep:department
+    name CDATA #REQUIRED
+>
+
+<!ELEMENT xin:xintream (hr:employee+)>
+<!ATTLIST xin:xintream
+    name CDATA #REQUIRED
+>
+
+<!ELEMENT hr:employee (hr:name, hr:position)>
+<!ATTLIST hr:employee
+    id ID #REQUIRED
+>
+
+<!ELEMENT hr:name (#PCDATA)>
+<!ELEMENT hr:position (#PCDATA)>

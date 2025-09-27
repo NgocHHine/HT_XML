@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE elearning SYSTEM "elearning.dtd">
 <elearning xmlns:course="http://example.com/course"
            xmlns:instructor="http://example.com/instructor"
            xmlns:student="http://example.com/student">
@@ -20,44 +21,4 @@
             </student:student>
         </course:students>
     </course:course>
-
-    <course:course id="K4" category="Lập trình">
-        <course:title>Anh văn căn bản 1</course:title>
-        
-        <instructor:instructor id="I21">
-            <instructor:name>Dương Anh Quốc</instructor:name>
-            <instructor:email>duonganhquoc@gmail.com</instructor:email>
-        </instructor:instructor>
-
-        <course:students>
-            <student:student id="L201" progress="50">
-                <student:name>Trần Thị Lệ Quyên</student:name>
-            </student:student>
-            <student:student id="S002" progress="50">
-                <student:name>Hoàng Minh Linh</student:name>
-            </student:student>
-        </course:students>
-    </course:course>
-
-    <course:course id="J2" category="Thiết kế">
-        <course:title>Lập trình Web</course:title>
-        
-        <instructor:instructor id="I12">
-            <instructor:name>Lê Thị Dương</instructor:name>
-            <instructor:email>lethiduong@gmail.com</instructor:email>
-        </instructor:instructor>
-
-        <course:students>
-            <student:student id="L23" progress="90">
-                <student:name>Phạm Văn Linh</student:name>
-            </student:student>
-            <student:student id="L24" progress="60">
-                <student:name>Đỗ Thị Lệ</student:name>
-            </student:student>
-            <student:student id="L14" progress="40">
-                <student:name>Ngô Văn Giang</student:name>
-            </student:student>
-        </course:students>
-    </course:course>
-
 </elearning>

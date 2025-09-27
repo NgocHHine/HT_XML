@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hospital SYSTEM "hospital.dtd">
 <hospital xmlns="http://example.com/hospital"
           xmlns:pat="http://example.com/patient"
           xmlns:doc="http://example.com/doctor"
           xmlns:app="http://example.com/appointment">
 
-    
+     
     <app:appointment id="A001" date="2025-08-05" status="Đã khám">
         <pat:patient id="P001">
             <pat:name>Dương Anh Khuyên</pat:name>
@@ -17,7 +18,7 @@
     </app:appointment>
    
     <app:appointment id="SI01" date="2025-03-05" status="Đã khám">
-        <pat:patient id="P001">
+        <pat:patient id="P005">
             <pat:name>Dương Khánh Ly</pat:name>
             <pat:dob>1999-08-15</pat:dob>
         </pat:patient>

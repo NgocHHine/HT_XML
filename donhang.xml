@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orders SYSTEM "orders.dtd">
 <orders xmlns:order="http://company.com/order" xmlns:prod="http://company.com/product">
 
     <order:order id="BN2" customer="Nguyễn Văn Anh" date="2025-05-02">
