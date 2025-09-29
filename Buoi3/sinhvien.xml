@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE lop SYSTEM "lop.dtd">
-<lop>
-    <sinhvien>
+<students xmlns="http://example.com/library"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://example.com/library sinhvien.xsd">
+    <student id="SV1">
         <id>KTPM2211001</id>
         <name>Trần Văn Linh</name>
         <subjects>
@@ -18,9 +19,9 @@
                 <score>8</score>
             </subject>
         </subjects>
-    </sinhvien>
+    </student>
 
-    <sinhvien>
+    <student id="SV2">
         <id>KTPM2211002</id>
         <name>Trần Thị Anh</name>
         <subjects>
@@ -33,9 +34,9 @@
                 <score>8.8</score>
             </subject>
         </subjects>
-    </sinhvien>
+    </student>
 
-    <sinhvien>
+    <student id="SV3">
         <id>KTPM22211003</id>
         <name>Lê Minh Khuyên</name>
         <subjects>
@@ -52,5 +53,5 @@
                 <score>9.1</score>
             </subject>
         </subjects>
-    </sinhvien>
-</lop>
+    </student>
+</students>

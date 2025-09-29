@@ -1,41 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE thuvien SYSTEM "thuvien.dtd">
-<thuvien>
-    <sach>
+<thuvien xmlns="http://example.com/library"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://example.com/library Thuvien.xsd">
+
+    <sach id="T01">
         <title>Đắc Nhân Tâm</title>
         <author>Dale Carnegie</author>
         <year>1936</year>
         <genre>Kỹ năng sống</genre>
     </sach>
 
-    <sach>
+    <sach id="T02">
         <title>Nhà giả Kim</title>
         <author>Paulo Coelho</author>
         <year>1988</year>
         <genre>Kinh tế</genre>
     </sach>
 
-    <sach>
+    <sach id="T03">
         <title>Người giàu có nhất thành Babilon</title>
         <author>George Samuel Clason</author>
         <year>1926</year>
         <genre>Kinh tế</genre>
     </sach>
-     <sach>
+     <sach id="T04">
         <title>Cuốn Theo Chiều Gió</title>
         <author>Margaret Mitchell</author>
         <year>1936</year>
         <genre>Tiểu thuyết</genre>
     </sach>
 
-    <sach>
+    <sach id="T05">
         <title>Hoàng Tử Bé</title>
         <author>Antoine de Saint-Exupéry</author>
         <year>1943</year>
         <genre>Tiểu thuyết</genre>
     </sach>
 
-    <sach>
+    <sach id="T06">
         <title>Đi Tìm Lẽ Sống</title>
         <author>Viktor Frankl</author>
         <year>1946</year>

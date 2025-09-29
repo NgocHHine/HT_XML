@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:order="http://company.com/order"
+        xmlns:prod="http://company.com/product"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://company.com/order orders.xsd">
+    
+    <order:order id="BN2" customer="Nguyễn Văn Anh" date="2025-05-02">
+        <prod:item id="P001" quantity="2" price="500000">
+            <prod:name>Tai nghe không dây</prod:name>
+        </prod:item>
+        <prod:item id="PX2" quantity="1" price="350000">
+            <prod:name>Bàn phím Laptop</prod:name>
+        </prod:item>
+    </order:order>
+
+    <order:order id="NH2" customer="Trần Thị Bé" date="2025-05-05">
+        <prod:item id="PG3" quantity="3" price="50000">
+            <prod:name>Miếng lót chuột</prod:name>
+        </prod:item>
+        <prod:item id="P05" quantity="2" price="180000">
+            <prod:name>Sạc dự phòng</prod:name>
+        </prod:item>
+        <prod:item id="P005" quantity="1" price="129000">
+            <prod:name>Củ sạc nhanh iPhone</prod:name>
+        </prod:item>
+    </order:order>
+
+    <order:order id="C245" customer="Nguyễn Văn Minh" date="2025-05-02">
+        <prod:item id="MJ1" quantity="2" price="5000">
+            <prod:name>Tập 4 ô ly 100 trang</prod:name>
+        </prod:item>
+        <prod:item id="MM2" quantity="6" price="15000">
+            <prod:name>Bút dạ quang</prod:name>
+        </prod:item>
+    </order:order>
+
+    <order:order id="JH2" customer="Lưu Văn Anh" date="2025-05-05">
+        <prod:item id="JU3" quantity="1" price="20000">
+            <prod:name>Chậu hoa hình thỏ</prod:name>
+        </prod:item>
+        <prod:item id="JJ0" quantity="2" price="258000">
+            <prod:name>Bàn gỗ gấp</prod:name>
+        </prod:item>
+        <prod:item id="MKR5" quantity="1" price="220000">
+            <prod:name>Kệ Laptop</prod:name>
+        </prod:item>
+    </order:order>
+
+</orders>

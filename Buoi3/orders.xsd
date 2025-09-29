@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://company.com/orders"
+           xmlns="http://company.com/orders"
+           xmlns:prod="http://company.com/orders"
+           elementFormDefault="qualified">
+
+  <!-- Root element -->
+  <xs:element name="orders">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="order" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="customer" type="xs:string"/>
+              <xs:element ref="prod:item" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Định nghĩa item ngay trong file này -->
+  <xs:element name="item">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="productId" type="xs:string"/>
+        <xs:element name="productName" type="xs:string"/>
+        <xs:element name="quantity" type="xs:positiveInteger"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
