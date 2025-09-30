@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANAN xsi:noNamespaceSchemaLocation="quanan.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <!-- ===== BAN (>=5) ===== -->
+  <BAN>
+    <TENBAN>B01</TENBAN>
+    <SOBAN>2</SOBAN>
+  </BAN>
+  <BAN>
+    <TENBAN>B02</TENBAN>
+    <SOBAN>2</SOBAN>
+  </BAN>
+  <BAN>
+    <TENBAN>B03</TENBAN>
+    <SOBAN>2</SOBAN>
+  </BAN>
+  <BAN>
+    <TENBAN>B04</TENBAN>
+    <SOBAN>1</SOBAN>
+  </BAN>
+  <BAN>
+    <TENBAN>B05</TENBAN>
+    <SOBAN>1</SOBAN>
+  </BAN>
+
+  <!-- ===== NHANVIEN (>=5) ===== -->
+  <NHANVIEN>
+    <MANV>N1</MANV>
+    <TENNV>Nguyen Van Anh</TENNV>
+    <SDT>0912345678</SDT>
+    <DIACHI>12/7a Nguyễn Trãi, Cần Thơ</DIACHI>
+    <GIOITINH>Nam</GIOITINH>
+    <USERNAME>nv1_staff</USERNAME>
+    <PASSWORD>nguyenvananh@12</PASSWORD>
+  </NHANVIEN>
+  <NHANVIEN>
+    <MANV>N2</MANV>
+    <TENNV>Trần Thị Mộng Bình</TENNV>
+    <SDT>0987654321</SDT>
+    <DIACHI>25 Lê Lợi, Cần Thơ</DIACHI>
+    <GIOITINH>Nu</GIOITINH>
+    <USERNAME>ttb.waiter</USERNAME>
+    <PASSWORD>tranthimongbinh@52</PASSWORD>
+  </NHANVIEN>
+  <NHANVIEN>
+    <MANV>N3</MANV>
+    <TENNV>Le Van C</TENNV>
+    <SDT>0901234567</SDT>
+    <DIACHI>3 Cách Mạng Tháng 8, Cần Thơ</DIACHI>
+    <GIOITINH>Nam</GIOITINH>
+    <USERNAME>le.c.manager</USERNAME>
+    <PASSWORD>lehuyanh@254</PASSWORD>
+  </NHANVIEN>
+  <NHANVIEN>
+    <MANV>N4</MANV>
+    <TENNV>Phạm Hữu Anh</TENNV>
+    <SDT>0933334444</SDT>
+    <DIACHI>4 Trần Quang Diệu</DIACHI>
+    <GIOITINH>Nam</GIOITINH>
+    <USERNAME>huuanh_kitchen</USERNAME>
+    <PASSWORD>phuhuuanh@64</PASSWORD>
+  </NHANVIEN>
+  <NHANVIEN>
+    <MANV>N5</MANV>
+    <TENNV>Hồ Văn Minh</TENNV>
+    <SDT>0977778888</SDT>
+    <DIACHI>5 Võ Văn Kiệt</DIACHI>
+    <GIOITINH>Nam</GIOITINH>
+    <USERNAME>minh.cashier</USERNAME>
+    <PASSWORD>hovanminhg@22</PASSWORD>
+  </NHANVIEN>
+
+  <!-- ===== MON (>=5) ===== -->
+  <MON>
+    <MAMON>M01</MAMON>
+    <TENMON>Cơm chiên dương châu</TENMON>
+    <GIA>45000</GIA>
+    <HINHANH>comchiendc.jpg</HINHANH>
+  </MON>
+  <MON>
+    <MAMON>M02</MAMON>
+    <TENMON>Cá lốc nướng</TENMON>
+    <GIA>150000</GIA>
+    <HINHANH>calocnuong.jpg</HINHANH>
+  </MON>
+  <MON>
+    <MAMON>M03</MAMON>
+    <TENMON>Mì xào gòn</TENMON>
+    <GIA>40000</GIA>
+    <HINHANH>mixaogon.jpg</HINHANH>
+  </MON>
+  <MON>
+    <MAMON>M04</MAMON>
+    <TENMON>Gà nướng lu</TENMON>
+    <GIA>215000</GIA>
+    <HINHANH>ganuonglu.jpg</HINHANH>
+  </MON>
+  <MON>
+    <MAMON>M05</MAMON>
+    <TENMON>Coca-cola</TENMON>
+    <GIA>15000</GIA>
+    <HINHANH>coca.jpg</HINHANH>
+  </MON>
+
+  <!-- ===== HOADON (>=5) — tham chiếu BAN + NHANVIEN ===== -->
+  <HOADON>
+    <SOHD>1001</SOHD>
+    <NGAYLAP>2025-09-28</NGAYLAP>
+    <TONGTIEN>45000</TONGTIEN>
+    <TENBAN_REF>B01</TENBAN_REF>
+    <MANV_REF>N1</MANV_REF>
+  </HOADON>
+  <HOADON>
+    <SOHD>1002</SOHD>
+    <NGAYLAP>2025-09-28</NGAYLAP>
+    <TONGTIEN>430000</TONGTIEN>
+    <TENBAN_REF>B02</TENBAN_REF>
+    <MANV_REF>N2</MANV_REF>
+  </HOADON>
+  <HOADON>
+    <SOHD>1003</SOHD>
+    <NGAYLAP>2025-09-29</NGAYLAP>
+    <TONGTIEN>300000</TONGTIEN>
+    <TENBAN_REF>B03</TENBAN_REF>
+    <MANV_REF>N3</MANV_REF>
+  </HOADON>
+  <HOADON>
+    <SOHD>1004</SOHD>
+    <NGAYLAP>2025-09-29</NGAYLAP>
+    <TONGTIEN>55000</TONGTIEN>
+    <TENBAN_REF>B04</TENBAN_REF>
+    <MANV_REF>N4</MANV_REF>
+  </HOADON>
+  <HOADON>
+    <SOHD>1005</SOHD>
+    <NGAYLAP>2025-09-30</NGAYLAP>
+    <TONGTIEN>45000</TONGTIEN>
+    <TENBAN_REF>B05</TENBAN_REF>
+    <MANV_REF>N5</MANV_REF>
+  </HOADON>
+
+  <!-- ===== CTHD (>=5) — tham chiếu HOADON + MON ===== -->
+  <CTHD>
+    <SOHD_REF>1001</SOHD_REF>
+    <MAMON_REF>M01</MAMON_REF>
+    <SOLUONG>1</SOLUONG>
+  </CTHD>
+  <CTHD>
+    <SOHD_REF>1002</SOHD_REF>
+    <MAMON_REF>M04</MAMON_REF>
+    <SOLUONG>2</SOLUONG>
+  </CTHD>
+  <CTHD>
+    <SOHD_REF>1002</SOHD_REF>
+    <MAMON_REF>M03</MAMON_REF>
+    <SOLUONG>1</SOLUONG>
+  </CTHD>
+  <CTHD>
+    <SOHD_REF>1003</SOHD_REF>
+    <MAMON_REF>M02</MAMON_REF>
+    <SOLUONG>2</SOLUONG>
+  </CTHD>
+  <CTHD>
+    <SOHD_REF>1005</SOHD_REF>
+    <MAMON_REF>M05</MAMON_REF>
+    <SOLUONG>3</SOLUONG>
+  </CTHD>
+
+</QUANAN>

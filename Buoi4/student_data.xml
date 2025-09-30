@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DSSV xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="student_data.xsd">
+
+  <!-- Danh sách khoa -->
+  <KHOA>
+    <MA>CNTT1</MA>
+    <TEN>cntt</TEN>
+  </KHOA>
+  <KHOA>
+    <MA>KT2</MA>
+    <TEN>qtkd</TEN>
+  </KHOA>
+
+  <!-- Danh sách lớp -->
+  <LOP>
+    <MA>L01</MA>
+    <TEN>CNTTA1</TEN>
+    <MAKHOA>CNTT1</MAKHOA>
+  </LOP>
+  <LOP>
+    <MA>L02</MA>
+    <TEN>QTKD</TEN>
+    <MAKHOA>KT2</MAKHOA>
+  </LOP>
+
+  <!-- Danh sách sinh viên -->
+  <SINHVIEN>
+    <MSSV>CNTT221101</MSSV>
+    <HOTEN>Nguyen Van Anh</HOTEN>
+    <EMAIL>nguyenanh@gmail.com</EMAIL>
+    <DIACHI>Can Tho</DIACHI>
+    <SDT>0912345678</SDT>
+    <MALOP>L01</MALOP>
+  </SINHVIEN>
+  <SINHVIEN>
+    <MSSV>QTKD210072</MSSV>
+    <HOTEN>Le Thi Binh</HOTEN>
+    <EMAIL>binh@gmail.com</EMAIL>
+    <DIACHI>Soc Trang</DIACHI>
+    <SDT>0987654321</SDT>
+    <MALOP>L02</MALOP>
+  </SINHVIEN>
+
+</DSSV>
