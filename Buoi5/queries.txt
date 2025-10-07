@@ -1,0 +1,58 @@
+
+# FILE: queries.xpath
+# Danh sách các truy vấn XPath cho school.xml
+# ==========================
+
+# 1. Lấy tất cả sinh viên
+/lib:school/lib:student
+
+# 2. Liệt kê tên tất cả sinh viên
+/lib:school/lib:student/lib:name/text()
+
+# 3. Lấy tất cả id của sinh viên
+/lib:school/lib:student/lib:id/text()
+
+# 4. Lấy ngày sinh của SV01
+/lib:school/lib:student[lib:id='SV01']/lib:date/text()
+
+# 5. Lấy các khóa học
+/lib:school/lib:enrollment/lib:course/text()
+
+# 6. Lấy toàn bộ thông tin sinh viên đầu tiên
+/lib:school/lib:student[1]
+
+# 7. Lấy mã SV đăng ký khóa học "Vatly203"
+/lib:school/lib:enrollment[lib:course='Vatly203']/lib:studentRef/text()
+
+# 8. Lấy tên SV học môn "Toan101"
+/lib:school/lib:student[lib:id=/lib:school/lib:enrollment[lib:course='Toan101']/lib:studentRef]/lib:name/text()
+
+# 9. Lấy tên SV học môn "Vatly203"
+/lib:school/lib:student[lib:id=/lib:school/lib:enrollment[lib:course='Vatly203']/lib:studentRef]/lib:name/text()
+
+# 10. Lấy tên và ngày sinh của tất cả sinh viên sinh năm 1997
+/lib:school/lib:student[starts-with(lib:date,'1997')]
+
+# 11. Lấy tên của các SV có ngày sinh trước năm 1998
+/lib:school/lib:student[substring(lib:date,1,4) < 1998]/lib:name/text()
+
+# 12. Đếm tổng số sinh viên
+count(/lib:school/lib:student)
+
+# 13. Lấy date ngay sau name của SV01
+/lib:school/lib:student[lib:id='SV01']/lib:name/following-sibling::lib:date[1]/text()
+
+# 14. Lấy id ngay trước name của SV02
+/lib:school/lib:student[lib:id='SV02']/lib:name/preceding-sibling::lib:id[1]/text()
+
+# 15. Lấy toàn bộ course cùng enrollment với SV03
+/lib:school/lib:enrollment[lib:studentRef='SV03']/lib:course/text()
+
+# 16. Lấy sinh viên có họ “Trần”
+/lib:school/lib:student[starts-with(normalize-space(lib:name),'Trần')]/lib:name/text()
+
+# 17. Lấy năm sinh SV01
+substring(/lib:school/lib:student[lib:id='SV01']/lib:date,1,4)
+
+# 18. Lấy sinh viên chưa đăng ký môn nào
+/lib:school/lib:student[not(lib:id=/lib:school/lib:enrollment/lib:studentRef)]
